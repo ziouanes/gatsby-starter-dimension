@@ -1,4 +1,5 @@
 {
+  "clean": "rm -rf .cache",
   "name": "gatsby-starter-dimension-v2",
   "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
