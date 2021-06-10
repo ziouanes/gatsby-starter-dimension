@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/Capture_deplacement.png'
+import pic02 from '../images/PRINT2.png'
+import pic03 from '../images/Capture_vidange.png'
 
 class Main extends React.Component {
   render() {
@@ -140,25 +140,25 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/7emZza"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/hamza_ziouane/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/ziouanes"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

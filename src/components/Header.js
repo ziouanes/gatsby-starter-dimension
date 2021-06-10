@@ -10,11 +10,11 @@ const Header = props => (
       <div className="inner">
         <h1>To the Moon</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="#">HTML5 UP</a> and released
+        THIS SITE IS STILL A WORK IN PROGRESS
+          {/* <a href="#">HTML5 UP</a> and released
           <br />
           for free under the{' '}
-          <a href="#">Creative Commons</a> license.
+          <a href="#">Creative Commons</a> license. */}
         </p>
       </div>
     </div>
