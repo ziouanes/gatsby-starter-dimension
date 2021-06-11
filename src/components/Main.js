@@ -115,8 +115,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact"  method="post" data-netlify="true" data-netlify-honepot ="bot-field"  >
+          <form name="contact"  method="post" data-netlify="true" netlify-honeypot ="bot-field"  >
             <div className="field half first">
+            <input type="hidden" name="bot-field" />
+             <input type="hidden" name="form-name" value="contact" />
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
@@ -130,6 +132,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
+                {/* <button>send</button> */}
                 <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
